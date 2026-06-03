@@ -1,0 +1,19 @@
+'# Projeto Agrinho 2026
+# Agro forte, futuro sustentável
+
+umidade = float(input("Digite a umidade do solo (%): "))
+
+if umidade < 30:
+    print("⚠ Solo seco!")
+    print("Ligar irrigação para economizar a plantação.")
+elif umidade < 60:
+    print("✅ Umidade adequada.")
+    print("Não é necessário irrigar agora.")
+else:
+    print("💧 Solo muito úmido.")
+    print("Evite irrigação para economizar água.")
+
+# Relatório simples
+print("\n--- RELATÓRIO ---")
+print(f"Umidade registrada: {umidade}%")
+print("Objetivo: Uso consciente da água e agricultura sustentável.")
